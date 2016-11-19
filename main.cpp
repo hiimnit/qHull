@@ -302,7 +302,7 @@ int main (int argc, char* argv[]) {
 
     end_time = omp_get_wtime();
 
-    
+
     cout << "                 Time : " << end_time - start_time << "s" << endl;
 
     if (res_file != "0") {
